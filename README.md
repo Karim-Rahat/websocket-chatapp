@@ -86,4 +86,11 @@ const t = setInterval(() => {
     ws.send(JSON.stringify({ type: "ping" }));
 }, 55000);
 
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
+### Acknowledgements
+Express for the web framework
+WebSocket for real-time communication
+MySQL for database management
+PM2 for process management
