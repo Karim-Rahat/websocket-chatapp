@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live chat</title>
+    <link rel="stylesheet" href="/styles.css?v=1.5.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <div id="chat-container">
+      <div id="chat-header" >
+        <h2>eZWay Podcast Live Chat</h2>
+        <p id="userName" class="user-badge">User Name</p>
+      </div>
+
+      <div id="messages-container">
+        <div id="messages"></div>
+      </div>
+      <form id="form" action="">
+        <input id="input" autocomplete="off" placeholder="Type a message..." />
+
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="56"
+            height="56"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="m18.07 8.509-8.56-4.28c-5.75-2.88-8.11-.52-5.23 5.23l.87 1.74c.25.51.25 1.1 0 1.61l-.87 1.73c-2.88 5.75-.53 8.11 5.23 5.23l8.56-4.28c3.84-1.92 3.84-5.06 0-6.98Zm-3.23 4.24h-5.4c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h5.4c.41 0 .75.34.75.75s-.34.75-.75.75Z"
+              fill="#ff8a00"
+            ></path>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js?v=1.5.0"></script>
+    <script src="/script.js?v=1.5.0"></script>
+  </body>
+</html>

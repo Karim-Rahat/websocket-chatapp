@@ -1,0 +1,23 @@
+{
+  "name": "chat-application",
+  "version": "1.0.1",
+  "description": "A live chat application using WebSocket and Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon node app.js"
+  },
+  "keywords": ["chat", "websocket", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.1",
+    "nodemon": "^3.1.3",
+    "socket.io": "^4.7.5",
+    "ws": "^8.17.0"
+  }
+}
